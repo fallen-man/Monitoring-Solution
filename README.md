@@ -86,6 +86,6 @@ there is many ways for monitoring a cloud environment an it can be picked based 
 you can see the topology of this architecture in extra folder of this repository.
 
 ## A Better Way
-There is also more fault-tolerant and reliable way to do this scenario:
+There is also a more fault-tolerant and reliable way to do this scenario:
 we can distribute kafka cluster on our datacenters which every DC can have 3 kafka nodes including HQ DC.
 this way, producing and consuming metrics will be faster and more reliable.
